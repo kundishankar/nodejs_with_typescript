@@ -8,6 +8,7 @@ class AuthController {
         //console.log(middleware.generateToken);
         res.status(200).json({stutus:200, token: middleware.generateToken});
     }
+    
 
     login = async (req : any, res: any) => {
         //console.log(req.body.name)
